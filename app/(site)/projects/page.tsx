@@ -5,6 +5,7 @@ import { MediaCard } from "@/components/site/MediaCard";
 import { PageHero } from "@/components/site/PageHero";
 import type { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = { title: "الأعمال" };
 
 export default async function ProjectsPage() {

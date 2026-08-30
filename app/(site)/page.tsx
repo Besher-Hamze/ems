@@ -7,6 +7,8 @@ import { SectionHeading } from "@/components/site/SectionHeading";
 import { FaqList } from "@/components/site/FaqList";
 import { ArrowLeft, Phone } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 const reasons = [
   { title: "منتج من المصنع", text: "تصنيع وتعبئة عبوات 20 كغ بمعايير تغليف صناعي جاهز للشحن." },
   { title: "خبرة تركية وتصنيع سوري", text: "المواصفات من الخبرة التركية، والتنفيذ على خطوطنا في سورية." },

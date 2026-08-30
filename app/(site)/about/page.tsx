@@ -3,6 +3,7 @@ import { FACTORY_IMAGES, VIDEOS } from "@/lib/media";
 import { PageHero } from "@/components/site/PageHero";
 import type { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = { title: "من نحن" };
 
 export default async function AboutPage() {
