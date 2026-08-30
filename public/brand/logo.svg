@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" fill="none">
+  <!-- Authentic EMS.PRO: E three yellow bars, M yellow-to-white, S white -->
+  <g>
+    <rect x="0" y="8" width="74" height="22" fill="#FFE600"/>
+    <rect x="0" y="59" width="60" height="22" fill="#FFE600"/>
+    <rect x="0" y="110" width="74" height="22" fill="#FFE600"/>
+  </g>
+  <path fill="#FFE600" d="M92 8h30l36 92V8h22v124h-28V48L118 132H96L92 8z"/>
+  <path fill="#FFFFFF" d="M158 8h28v124h-28V8z" opacity="0"/>
+  <path fill="#FFFFFF" d="M152 8h28l-4 124h-28L152 8z"/>
+  <path fill="#FFFFFF" d="M210 36c0-20 18-32 46-32 26 0 44 10 50 30h-26c-4-8-12-14-24-14-12 0-20 6-20 14s8 12 28 18c28 8 46 20 46 46 0 26-22 38-52 38-30 0-52-12-58-36h26c6 10 16 18 32 18 14 0 26-6 26-16s-10-14-30-20C226 76 210 64 210 36z"/>
+  <circle cx="348" cy="118" r="6" fill="#FFE600"/>
+  <text x="364" y="128" fill="#FFFFFF" font-family="Arial Black, Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="4">PRO</text>
+</svg>

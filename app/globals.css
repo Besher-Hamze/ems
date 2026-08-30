@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ems-yellow: #c1913a;
+  --ems-ink: #1c1a17;
+  --ems-stone: #faf8f4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--ems-stone);
+  color: var(--ems-ink);
+}
+
+::selection {
+  background: #c1913a;
+  color: #fff;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.admin-shell input,
+.admin-shell textarea {
+  width: 100%;
+  min-height: 48px;
+  border-radius: 1rem;
+  border: 1px solid #e4e4e7;
+  background: #fff;
+  padding: 0.75rem 1rem;
+  color: #18181b;
+  font-size: 1rem;
+}
+
+.admin-shell textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.admin-shell label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #3f3f46;
+}

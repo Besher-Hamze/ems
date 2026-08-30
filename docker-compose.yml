@@ -1,0 +1,11 @@
+services:
+  mongo:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    volumes:
+      - ems-mongo:/data/db
+    restart: unless-stopped
+
+volumes:
+  ems-mongo:
