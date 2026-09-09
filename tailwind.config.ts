@@ -9,9 +9,9 @@ const config: Config = {
     extend: {
       colors: {
         ems: {
-          yellow: "#C1913A",
-          gold: "#C1913A",
-          orange: "#F15A22",
+          yellow: "#D08030",
+          gold: "#D08030",
+          orange: "#D08030",
           black: "#12161A",
           ink: "#1C1A17",
           stone: "#FAF8F4",

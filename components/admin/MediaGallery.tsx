@@ -74,7 +74,7 @@ export function MediaGallery({ name, label, hint, defaultValues = [], kind }: Pr
             e.preventDefault();
             if (e.dataTransfer.files.length) onFiles(e.dataTransfer.files);
           }}
-          className="flex min-h-32 flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-zinc-300 bg-zinc-50 text-sm font-semibold text-zinc-500 transition hover:border-ems-gold hover:bg-amber-50"
+          className="flex min-h-32 flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-zinc-300 bg-zinc-50 text-sm font-semibold text-zinc-500 transition hover:border-ems-gold hover:bg-orange-50"
         >
           <Plus className="h-5 w-5" />
           {busy ? "جارٍ الرفع…" : kind === "image" ? "أضف صور" : "أضف فيديو"}

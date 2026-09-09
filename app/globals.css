@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --ems-yellow: #c1913a;
+  --ems-yellow: #d08030;
   --ems-ink: #1c1a17;
   --ems-stone: #faf8f4;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 ::selection {
-  background: #c1913a;
+  background: #d08030;
   color: #fff;
 }
 

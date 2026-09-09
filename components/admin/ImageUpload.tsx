@@ -45,7 +45,7 @@ export function ImageUpload({ name, defaultValue = "", label = "الصورة" }:
           const file = e.dataTransfer.files[0];
           if (file) onFile(file);
         }}
-        className="flex min-h-[180px] w-full items-center justify-center overflow-hidden rounded-2xl border-2 border-dashed border-zinc-300 bg-zinc-50 text-zinc-500 transition hover:border-ems-gold hover:bg-amber-50"
+        className="flex min-h-[180px] w-full items-center justify-center overflow-hidden rounded-2xl border-2 border-dashed border-zinc-300 bg-zinc-50 text-zinc-500 transition hover:border-ems-gold hover:bg-orange-50"
       >
         {url ? (
           // eslint-disable-next-line @next/next/no-img-element
